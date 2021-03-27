@@ -1,0 +1,1 @@
+#### You can download trained weights(ResNet50vd, 101vd) on [Baidu Yun](https://pan.baidu.com/s/1jsQn0Fb5qpzzFZphrFZW5Q) (提取码: 9u9m), or [Google Drive](https://drive.google.com/drive/folders/1rzq8sJ4pYFVbW2qB7vXVCot0cuSYcoZQ?usp=sharing), then put it into ./saved_weights
