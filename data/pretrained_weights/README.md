@@ -1,0 +1,1 @@
+**Please download [Baidu Yun](https://pan.baidu.com/s/1F_fZRRxweHJn8S3p3WdbDw) (提取码: krce), or [Google Drive](https://drive.google.com/drive/folders/1vu3yqmazeQes8am64kLxghbuSthfDgCD?usp=sharing), then put it into ./data/pretrained_weights**      
