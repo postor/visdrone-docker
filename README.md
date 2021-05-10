@@ -42,19 +42,16 @@ python image_demo.py, it will get visualized results.
 
 ## Test Result(Validation set)：
 ### 1. ResNet50-vd
-#### Note：        
-- **May 10, 2021:** We observe a better accuracy when setting larger short size(1200) with ResNet50-vd, it will achieve 33.85%(+2.59%) in AP0.50:0.95 and 36.17%(+1.07%) in multi-scale testing(800,1000,1200,1400,1600). You can also try a larger short size if GPU memory is enough to train, it may increase the final accuracy.
-
 Name|maxDets|Result(s/m)
 ---------------|------------------|----------------
-Average Precision  (AP) @( IoU=0.50:0.95) | maxDets=500  | 31.26%(33.85%)/35.1%
+Average Precision  (AP) @( IoU=0.50:0.95) | maxDets=500  | 31.26%/35.1%
 Average Precision  (AP) @( IoU=0.50     ) | maxDets=500  | 56.44%/60.29%
 Average Precision  (AP) @( IoU=0.75     ) | maxDets=500  | 30.13%/35.42%
 Average Recall     (AR) @( IoU=0.50:0.95) | maxDets=  1  | 0.78%/0.58%
 Average Recall     (AR) @( IoU=0.50:0.95) | maxDets= 10  | 6.62%/6.05%
 Average Recall     (AR) @( IoU=0.50:0.95) | maxDets=100  | 38.21%/40.99%
 Average Recall     (AR) @( IoU=0.50:0.95) | maxDets=500  | 48.41%/53%
-##### "s" means single-scale training + single-scale testing; "m" means multi-scale training + multi-scale testing
+##### "s" means single-scale training + single-scale testing; "m"means multi-scale training + multi-scale testing
 ### 2. ResNet101-vd
 Name|maxDets|Result(s/m)
 ---------------|------------------|----------------
