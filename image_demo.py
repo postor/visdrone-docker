@@ -28,7 +28,8 @@ def visualized_visdrone(img_dir, save_path):
                                                     "final_boxes"], det_dict["final_scores"], det_dict["final_category"]
 
     restorer, restore_ckpt = net.get_restorer()
-
+    if restore_ckpt == cfgs.PRETRAIN_BACKBONE_WEIGHTS:
+        raise IndexError("----->Please select the trained weights rather than pretrained weights.")
     img_name = os.listdir(path=img_dir)
     with tf.Session() as sess:
         restorer.restore(sess, restore_ckpt)
